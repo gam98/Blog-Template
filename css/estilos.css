@@ -1,0 +1,231 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+.body__color{
+    background-color: #f1f1f1;
+}
+.content{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    padding: 2em 1em;
+    text-align: center;
+}
+.header__title{
+    font-weight: 500;
+    margin: 0.625rem 0;
+    font-size: 2.25em;
+    text-transform: uppercase;
+}
+.header__text{
+    margin: 0.9375rem 0;
+}
+.header__tag{
+    background-color: #000;
+    color: #fff;
+    padding: 0 0.5rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr  400px;
+    margin: 1rem;
+    grid-gap: 1rem 2rem;
+}
+.grid__left-card{
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 2rem;
+}
+.grid__left-img{
+    width: 100%;
+}
+.grid__left-card-content{
+    padding: 0 1rem;
+}
+.grid__left-title-card{
+    margin: 0.625rem 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.grid__left-subtitle-card{
+    margin: 0.625rem 0;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.grid__left-sp-card{
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+.grid__left-text{
+    font-size: 0.9375rem;
+    text-align: justify;
+    margin: 0.9375rem 0;
+}
+.grid__left-more{
+    display: flex;
+    justify-content: space-between;
+}
+.grid__left-btn{
+    margin: 0.9375rem 0;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.grid__left-btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.grid__left-next{
+    margin-top: 0.9375rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+}
+.grid__left-number{
+    background: #000;
+    color: #fff;
+    padding: 0 0.5rem;
+    margin-left: 0.5rem;
+}
+.grid__left-number-radius{
+    border-radius: 50%;
+}
+.grid__right-card{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 2rem;
+}
+.grid__right-card-img{
+    width: 100%;
+}
+.grid__right-content{
+    padding: 0 1rem;
+    padding-bottom: 0.9375rem;
+}
+.grid__right-title{
+    margin: 0.625rem 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.grid__right-p{
+    margin: 0.9375rem 0 0 0;
+    font-size: 0.9375rem;
+}
+.grid__right-posts,
+.grid__right-tags{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 2rem;
+}
+.grid__right-container{
+    padding: 0.5rem 1rem;
+}
+.grid__right-title-post{
+    font-weight: 400;
+    margin: 0.625rem 0;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+.grid__right-ul{
+    background-color: #fff;
+    list-style: none;
+}
+.grid__right-li{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+.grid__right-li:hover{
+    background: #ccc;
+}
+.grid__right-img-li{
+    display: inline-block;
+    width: 50px;
+    margin-right: 1rem;
+}
+.grid__right-li-one{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.grid__right-li-two{
+    font-size: 0.9375rem;
+    font-weight: 300;
+}
+.grid__right-tags-container1{
+    padding: 0.5rem 1rem;
+}
+.grid__right-tags-title{
+    margin: 0.625rem 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.grid__right-tags-container2{
+    padding: 0.9375rem 1rem;
+    background-color: #fff;
+    color: #000;
+}
+.grid__right-label{
+    font-size: 0.75rem;
+    color: #000;
+    background-color: #f1f1f1;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    display: inline-block;
+}
+.grid__right-label:first-child{
+    font-size: 0.9375rem;
+    background-color: #000;
+    color: #fff;
+}
+.grid__right-label:nth-of-type(4),
+.grid__right-label:nth-of-type(5),
+.grid__right-label:nth-of-type(6){
+    text-transform: uppercase;
+}
+.footer{
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+    background-color: #616161;
+}
+.footer__btn{
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 0.9375rem;
+}
+.footer__btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.footer__btn:first-child{
+    opacity: .3;
+    cursor: not-allowed;
+}
+.footer__text{
+    color: #fff;
+    margin: 0.9375rem 0;
+    font-size: 0.9375rem;
+}
+.footer__link{
+    color: #fff;
+    font-size: 0.9375rem;
+}
+@media screen and (max-width:768px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:375px){
+    .grid__left-next{
+        display: none;
+    }
+}
